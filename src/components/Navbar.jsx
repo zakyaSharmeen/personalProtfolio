@@ -3,7 +3,8 @@ import { Linkedin, Github, Sun, Moon } from "lucide-react";
 import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  // const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   useEffect(() => {
     const savedTheme = localStorage.getItem("theme");
