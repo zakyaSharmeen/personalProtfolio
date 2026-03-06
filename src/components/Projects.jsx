@@ -7,8 +7,7 @@ const projects = [
   {
     title: "Shopping Website",
     desc: " Developed with React and CSS, integrated Formspree for contact forms and Redux Toolkit for state management. Responsive design",
-    image:
-      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?auto=format&fit=crop&q=80&w=800",
+    image: "/img1-shopping.png",
     tags: ["React", "Redux Toolkit", "Formspree"],
     githublink: "https://github.com/zakyaSharmeen/react-e-commerce-website",
     link: "https://react-e-commerce-website-final.vercel.app/",
@@ -16,8 +15,7 @@ const projects = [
   {
     title: "AI Assistant Website",
     desc: "AI chatbot built using  API key via OpenRouter integration. Responsive design.",
-    image:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800",
+    image: "/img2-bot.png",
     tags: ["React", "OpenRouter API key"],
     githublink: "https://github.com/zakyaSharmeen/react-ai-assistant",
     link: "https://react-ai-assistant-856p.vercel.app/",
@@ -25,8 +23,7 @@ const projects = [
   {
     title: "Food Ordering Website",
     desc: "Built using React, TailwindCSS, and Redux Toolkit for state management. Responsive design.",
-    image:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800",
+    image: "/img3-rtk-food.png",
     tags: ["React", "TailwindCSS", "Redux Toolkit"],
     githublink:
       "https://github.com/zakyaSharmeen/reactPracticalDay-9-redux-toolkit",
@@ -35,8 +32,7 @@ const projects = [
   {
     title: "Authentication System",
     desc: "Login and signup interface built with React and TailwindCSS. Responsive design.",
-    image:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800",
+    image: "/img4-login.png",
     tags: ["React", "TailwindCSS"],
     githublink:
       "https://github.com/zakyaSharmeen/reactPracticalDay-10-Authentication-login-signup-",
@@ -45,8 +41,7 @@ const projects = [
   {
     title: "Form Validation Website",
     desc: "Form validation project implemented using React and TailwindCSS. Responsive design.",
-    image:
-      "https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=800",
+    image: "/img5-validation.png",
     tags: ["React", "TailwindCSS"],
     githublink:
       "https://github.com/zakyaSharmeen/reactPracticalDay-7-FormValidation",
