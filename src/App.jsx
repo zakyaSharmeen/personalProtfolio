@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import CustomCursor from "./components/CustomCursor";
 import { Route, Routes } from "react-router-dom";
+import ProjectMern from "./components/ProjectMern";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Hero />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/mernproj" element={<ProjectMern />} />
         </Routes>
       </main>
     </div>

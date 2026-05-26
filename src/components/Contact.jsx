@@ -4,11 +4,11 @@ import { Mail, Download, Github, Linkedin, MessageCircle } from "lucide-react";
 
 const Contact = () => {
   const handleDownload = () => {
-    const cvUrl = "/zakyaFinalProtfolio.pdf";
+    const cvUrl = "/zakUpdatedProfolio.pdf";
 
     const link = document.createElement("a");
     link.href = cvUrl;
-    link.setAttribute("download", "Zakya_Resume.pdf");
+    link.setAttribute("download", "Zakya_Sharmeen_Resume.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

@@ -1,7 +1,8 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ExternalLink, Github } from "lucide-react";
+import { ExternalLink, Github, ProjectorIcon } from "lucide-react";
 import { g } from "framer-motion/client";
+import ProjectNavbar from "./ProjectNavbar";
 
 const projects = [
   {
@@ -102,10 +103,9 @@ const Projects = () => {
   return (
     <section id="projects" className="py-24 px-6 md:px-12 max-w-7xl mx-auto">
       <div className="mb-16">
-        <h2 className="text-4xl font-bold mb-4">
-          Featured <span className="text-gradient">Projects</span>
-        </h2>
+        <h2 className="text-4xl font-bold mb-4">Projects</h2>
         <div className="h-1 w-20 bg-primary rounded-full" />
+        <ProjectNavbar />
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
